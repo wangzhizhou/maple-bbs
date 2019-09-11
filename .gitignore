@@ -10,3 +10,5 @@ fabfile.py
 *.db
 *.pyc
 **/.webassets-cache/
+py3/
+config.py

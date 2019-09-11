@@ -88,6 +88,7 @@ LOGGING = {
 # Sql
 SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@localhost/your_db'
 # SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 MSEARCH_INDEX_NAME = 'msearch'
 MSEARCH_BACKEND = 'whoosh'
