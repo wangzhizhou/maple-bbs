@@ -42,7 +42,7 @@
       <span class="footer-pipe"> | </span>
       <a href="{{ url_for('forums.contact')}}">{{ _('Contact me')}}</a>
       <span class="footer-pipe"> | </span>
-      <a href="https://github.com/honmaple/maple-bbs" target="_blank">GitHub</a>
+      <a href="https://github.com/OrzGeeker" target="_blank">GitHub</a>
     </p>
     <p class="footer-desc text-right hidden-xs">
       {% set footer_count = g.get_online %}
@@ -56,10 +56,8 @@
       <span>{{ _('Time of highest online:')}}<strong>{{ footer_count[4] }}</strong></span>
     </p>
   </div>
-  <blockquote>
+  <div>
     <p>{{ _(SITE['description']) }}</p>
-    <footer>
-      © 2015-2018 honmaple.
-    </footer>
-  </blockquote>
+    <p>©2019-20XX 北京一苇成航科技发展中心 京ICP备18007462号</p>
+  </div>
 </div>
