@@ -62,7 +62,7 @@ MAIL_PASSWORD = "your password"
 MAIL_DEFAULT_SENDER = 'your email'
 # MAIL_SUPPRESS_SEND = True
 
-SERVER_NAME = 'localhost:8000'
+SERVER_NAME = 'localhost:9000'
 SUBDOMAIN = {'forums': True, 'docs': True}
 
 # logging setting
