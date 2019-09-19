@@ -13,7 +13,7 @@
 from flask_admin import Admin
 from forums.admin import forums, user, topic, message, permission
 
-admin = Admin(name='HonMaple', template_mode='bootstrap3')
+admin = Admin(name='OrzGeeker', template_mode='bootstrap3')
 
 
 def init_app(app):
