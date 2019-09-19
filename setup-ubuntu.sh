@@ -18,6 +18,11 @@ then
 	cp config.example config.py
 fi
 
-#python runserver.py initdb
-#python runserver.py create_index
-#python runserver.py create_user
+mkdir -p logs/
+
+# config.py 
+
+python runserver.py initdb
+python runserver.py create-index
+python runserver.py create-user
+python runserver.py

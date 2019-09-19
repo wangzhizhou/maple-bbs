@@ -86,7 +86,7 @@ LOGGING = {
 }
 
 # Sql
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@localhost/your_db'
+# SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@localhost/your_db'
 # SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
@@ -94,7 +94,7 @@ MSEARCH_INDEX_NAME = 'msearch'
 MSEARCH_BACKEND = 'whoosh'
 # SQLALCHEMY_ECHO = True
 # SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
-# SQLALCHEMY_DATABASE_URI = 'mysql://username:password@server/db'
+SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://username:password@server/db'
 BABEL_DEFAULT_LOCALE = 'en'
 BABEL_DEFAULT_TIMEZONE = 'UTC'
 BABEL_TRANSLATION_DIRECTORIES = path.join(PATH, 'translations')

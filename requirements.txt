@@ -25,3 +25,4 @@ redis==2.10.6
 psycopg2-binary==2.7.5
 Whoosh==2.7.4
 gunicorn==19.9.0
+mysql-connector-python
