@@ -27,6 +27,7 @@ mkdir -p logs/
 # su - 
 # mysql
 # create database bbs;
+# alter database bbs default character set 'utf8';
 # create user joker@'%' identified by 'minecraft';
 # grant all priviledges `bbs`.* to joker@'%';
 # flush priviledges;
